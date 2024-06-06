@@ -11,6 +11,7 @@ import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.*;
 import org.apache.lucene.search.*;
 import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.document.Document;
@@ -20,45 +21,53 @@ import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.similarities.ClassicSimilarity;
 import org.apache.lucene.search.similarities.Similarity;
 
-
-
 public class Phase2 {
 
     private final static String READ_DIR = "IR2024\\documents.txt";
     private final static String QUERIES_DIR = "IR2024\\queries.txt";
-    private final static String RESULTS_DIR = "IR2024\\trec_eval\\myResults.txt";
+    private final static String RESULTS_DIR = "IR2024\\trec_eval\\experiments";
 
     public static void main(String[] args) throws IOException, ParseException {
+        // Define the range of parameters for BM25
+        float[] k1Values = {0.5f, 1.0f, 1.5f, 2.0f};
+        float[] bValues = {0.0f, 0.25f, 0.5f, 0.75f, 1.0f};
 
-        //----------------------------- LUCENE INDEX SETUP ----------------------------------------------------------
-        //  Specify the analyzer and the similarity
+        // Define the range of parameters for LMJelinekMercerSimilarity
+        float[] lambdaValues = {0.1f, 0.3f, 0.5f, 0.7f, 0.9f};
+
+        // BM25 Experiments
+        for (float k1 : k1Values) {
+            for (float b : bValues) {
+                BM25Similarity bm25 = new BM25Similarity(k1, b);
+                runExperiment(bm25, "BM25_k1_" + k1 + "_b_" + b);
+            }
+        }
+
+        // LMJelinekMercer Experiments
+        for (float lambda : lambdaValues) {
+            LMJelinekMercerSimilarity lm = new LMJelinekMercerSimilarity(lambda);
+            runExperiment(lm, "LMJM_lambda_" + lambda);
+        }
+    }
+
+    public static void runExperiment(Similarity similarity, String resultFilePrefix) throws IOException, ParseException {
         Analyzer analyzer = new EnglishAnalyzer();
-        Similarity similarity = new BM25Similarity();
-
-        // Create the IndexWriter
-        String indexLocation = ("index");
-        Directory index = FSDirectory.open(Paths.get(indexLocation));
-
+        Directory index = FSDirectory.open(Paths.get("index"));
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
         config.setSimilarity(similarity);
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
 
         IndexWriter writer = new IndexWriter(index, config);
 
-        // Read the txt file
         String docs_file = ReadEntireFileIntoAString(READ_DIR);
-        // Split the documents of the txt file
         String[] docs = txtSplitter(docs_file, "///");
 
-        for (int i=0; i < docs.length; i++) {
-            // Parse each document and return it as a DocTuple object
+        for (int i = 0; i < docs.length; i++) {
             DocTuple document = parseDocument(docs[i]);
             addDoc(writer, document);
         }
-        // Finalizing index segments
         writer.close();
 
-        //----------------------------- QUERY SEARCHING ----------------------------------------------------------
         String queries_file = ReadEntireFileIntoAString(QUERIES_DIR);
         String[] queries = editQueries(txtSplitter(queries_file, "///"), "Q\\d+", "");
 
@@ -67,18 +76,14 @@ public class Phase2 {
         searcher.setSimilarity(similarity);
 
         String qCode = "";
-        // Create buffered writer for the "myResults.txt" file
-        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(RESULTS_DIR));
-        for (int i=0; i < queries.length; i++) {
+        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(resultFilePrefix));
+        for (int i = 0; i < queries.length; i++) {
             int temp = i + 1;
             qCode = (i < 9) ? "Q0" + temp : "Q" + temp;
-
-            search(analyzer, searcher, "content", queries[i], qCode,50, fileWriter);
+            search(analyzer, searcher, "content", queries[i], qCode, 50, fileWriter);
         }
         fileWriter.close();
-
         reader.close();
-
     }
 
     /**          -------------------- parseDocument function --------------------
