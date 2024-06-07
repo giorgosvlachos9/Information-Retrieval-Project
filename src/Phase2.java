@@ -33,24 +33,37 @@ public class Phase2 {
         float[] bValues = {0.0f, 0.25f, 0.5f, 0.75f, 1.0f};
 
         // Define the range of parameters for LMJelinekMercerSimilarity
-        float[] lambdaValues = {0.1f, 0.3f, 0.5f, 0.7f, 0.9f};
+        float[] lambdaValues = {0.0f, 0.1f, 0.3f, 0.5f, 0.7f, 0.9f, 1.0f};
 
         // BM25 Experiments
+        System.out.println("Running BM25 experiments...");
         for (float k1 : k1Values) {
             for (float b : bValues) {
                 BM25Similarity bm25 = new BM25Similarity(k1, b);
-                runExperiment(bm25, "BM25_k1_" + k1 + "_b_" + b);
+                String experimentName = "BM25_k1_" + k1 + "_b_" + b;
+                System.out.println("Running experiment: " + experimentName);
+                runExperiment(bm25, experimentName, RESULTS_DIR);
+                System.out.println("Experiment " + experimentName + " completed.\n");
             }
         }
 
         // LMJelinekMercer Experiments
+        System.out.println("Running LMJelinekMercer experiments...");
         for (float lambda : lambdaValues) {
             LMJelinekMercerSimilarity lm = new LMJelinekMercerSimilarity(lambda);
-            runExperiment(lm, "LMJM_lambda_" + lambda);
+            String experimentName = "LMJM_lambda_" + lambda;
+            System.out.println("Running experiment: " + experimentName);
+            runExperiment(lm, experimentName, RESULTS_DIR);
+            System.out.println("Experiment " + experimentName + " completed.\n");
         }
+
+        System.out.println("All experiments were completed successfully!");
     }
 
-    public static void runExperiment(Similarity similarity, String resultFilePrefix) throws IOException, ParseException {
+    public static void runExperiment(Similarity similarity, String experimentName, String resultsDir) throws IOException, ParseException {
+        // Construct the file path for the result file
+        String resultFilePath = resultsDir + File.separator + experimentName + ".txt";
+
         Analyzer analyzer = new EnglishAnalyzer();
         Directory index = FSDirectory.open(Paths.get("index"));
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
@@ -76,7 +89,7 @@ public class Phase2 {
         searcher.setSimilarity(similarity);
 
         String qCode = "";
-        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(resultFilePrefix));
+        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(resultFilePath));
         for (int i = 0; i < queries.length; i++) {
             int temp = i + 1;
             qCode = (i < 9) ? "Q0" + temp : "Q" + temp;
