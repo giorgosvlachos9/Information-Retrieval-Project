@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91d37d74-8424-4536-bf8d-8dcaf07e118c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/myResults.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/trecEvalResults/word2vec_P.10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/trecEvalResults/word2vec_P.15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/trecEvalResults/word2vec_P.20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/trecEvalResults/word2vec_P.5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IR2024/trec_eval/trecEvalResults/word2vec_map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_0.5_b_0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_0.5_b_0.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_0.5_b_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_0.5_b_0.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_0.5_b_1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.0_b_0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.0_b_0.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.0_b_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.0_b_0.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.0_b_1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.5_b_0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.5_b_0.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.5_b_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.5_b_0.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_1.5_b_1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_2.0_b_0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_2.0_b_0.25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_2.0_b_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_2.0_b_0.75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/BM25_k1_2.0_b_1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/experiments/LMJM_lambda_1.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.25_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.25_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.25_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.25_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.25_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.5_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.5_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.5_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.5_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.5_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.75_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.75_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.75_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.75_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_0.75_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_1.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_1.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_1.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_1.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_0.5_b_1.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.25_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.25_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.25_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.25_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.25_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.5_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.5_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.5_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.5_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.5_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.75_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.75_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.75_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.75_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_0.75_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_1.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_1.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_1.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_1.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.0_b_1.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.25_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.25_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.25_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.25_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.25_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.5_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.5_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.5_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.5_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.5_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.75_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.75_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.75_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.75_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_0.75_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_1.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_1.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_1.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_1.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_1.5_b_1.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.25_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.25_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.25_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.25_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.25_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.5_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.5_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.5_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.5_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.5_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.75_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.75_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.75_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.75_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_0.75_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_1.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_1.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_1.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_1.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/BM25_k1_2.0_b_1.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.1_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.1_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.1_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.1_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.1_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.3_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.3_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.3_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.3_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.3_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.5_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.5_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.5_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.5_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.5_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.7_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.7_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.7_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.7_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.7_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.9_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.9_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.9_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.9_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_0.9_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_1.0_P.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_1.0_P.15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_1.0_P.20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_1.0_P.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IR2024/trec_eval/results/LMJM_lambda_1.0_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Information-Retrieval-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Information-Retrieval-Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/.ipynb_checkpoints/data_analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/.ipynb_checkpoints/data_analysis-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/data_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/data_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7j.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7j.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7j.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7k.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7k.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_7k.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/segments_4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Information-Retrieval-Project/Phase2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Information-Retrieval-Project/Phase2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Phase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Phase2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2idzrbPPzh4gMjKwPM09r4xO9m4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Phase2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giorg/OneDrive - aueb.gr/Documents/aueb/info_retrieval/HW/PHASE2_3200183_3200021/Information-Retrieval-Project"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giorg\OneDrive - aueb.gr\Documents\aueb\info_retrieval\HW\PHASE2_3200183_3200021\Information-Retrieval-Project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Phase2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Phase2" />
+      <module name="Information-Retrieval-Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Phase2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91d37d74-8424-4536-bf8d-8dcaf07e118c" name="Changes" comment="" />
+      <created>1719835441588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719835441588</updated>
+    </task>
+    <servers />
+  </component>
+</project>
