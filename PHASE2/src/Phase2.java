@@ -82,22 +82,6 @@ public class Phase2 {
         }
         writer.close();
 
-        /*String queries_file = ReadEntireFileIntoAString(QUERIES_DIR);
-        String[] queries = editQueries(txtSplitter(queries_file, "///"), "Q\\d+", "");
-
-        IndexReader reader = DirectoryReader.open(index);
-        IndexSearcher searcher = new IndexSearcher(reader);
-        searcher.setSimilarity(similarity);
-
-        String qCode = "";
-        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(resultFilePath));
-        for (int i = 0; i < queries.length; i++) {
-            int temp = i + 1;
-            qCode = (i < 9) ? "Q0" + temp : "Q" + temp;
-            search(analyzer, searcher, "content", queries[i], qCode, 50, fileWriter);
-        }
-        fileWriter.close();
-        reader.close();*/
     }
 
     /**          -------------------- parseDocument function --------------------
